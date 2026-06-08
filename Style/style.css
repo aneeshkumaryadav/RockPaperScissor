@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    height: 5rem;
+    width: 100%;
+    background-color: #000000;
+    color: #fcfcfc;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+main{
+    height: 42rem;
+}
+
+.choices {
+    height: 200px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+img:hover{
+    opacity: 0.8;
+    border: 2.5px solid black;
+    cursor: pointer;
+}
+
+.score-board {
+    height: 160px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 3rem;
+}
+
+.score {
+    height: 140px;
+    width: 140px;
+}
+
+.score #userScore, #computerScore{
+    font-size: 5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.score p{
+    font-size: 1.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message {
+    height: 50px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+#msg {
+    font-size: 2rem;
+    color: #fcfcfc;
+    background-color: #000000;
+    display: inline;
+    padding: 15px;
+    border-radius: 27px;
+    cursor: pointer;
+}
+
+
+.bottom-panel {
+    height: 2rem;
+    width: 100%;
+    background-color: #000000;
+    color: #fcfcfc;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    bottom: 0;
+    z-index: 1000;
+}
