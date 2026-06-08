@@ -2,7 +2,7 @@
 
 A simple and interactive **Rock Paper Scissors** game built using **HTML5**, **CSS3**, and **JavaScript**. The project demonstrates fundamental web development concepts, including user interaction, game logic implementation, and dynamic DOM manipulation.
 
-🔗 **Live Demo:** https://aneeshkumaryadav.github.io/rockpaperscissor/
+🔗 **Live Demo:** https://aneeshkumaryadav.github.io/rock-paper-scissor/
 
 ---
 
